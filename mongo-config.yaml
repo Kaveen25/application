@@ -2,5 +2,7 @@ apiVersion: v1
 kind: ConfigMap
 metadata:
   name: mongo-config
+  labels:
+    namespace: jenkins 
 data:
   mongo-url: mongo-service
